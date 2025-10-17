@@ -10,7 +10,7 @@ To isolate resources from direct Internet, better to place them in private subne
 since Apps often require to send/receive outbound traffic, this is where NAT gateway
 comes in. NAT gateway translates private IPs of EC2 to its own public IP.
 
-#### Accessing AWS services
+## Accessing AWS services
 
 #####  Access via NAT gateway; 
 instances in private subnet access S3 or Dynamo DB over Internet through NAT gateway
@@ -25,7 +25,7 @@ these services. Unlike NAT gateway, having no additional cost for data transfer.
 ##### Interface gateway used for other AWS services, 
 it is a network interface with a private IP in your subnet powered by AWS private link.
 
-#### Connecting Multiple VPC
+## Connecting Multiple VPC
 
 #####  VPC peering connection
 is direct one to one connection between two VPCs.
@@ -35,14 +35,14 @@ is direct one to one connection between two VPCs.
 simplifies connectivity which routes traffic between VPCs,
 On-Prem networks and even other AWS account.
 
-#### Hybrid Network
+## Hybrid Network
 
 ##### VPN or AWS Direct Connect used to link on-prem to VPC
 
 ##### Setup IPSec VPN tunnel;
 traffic goes over Internet though.
 
-#### cloudfront 
+## cloudfront 
 Increase of users cause increase of cost and latency in case of using S3, ALB
 Solution; ditching ALB and using cloud front; 
 S3 can serve directly to users through cloudfront 
