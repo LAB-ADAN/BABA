@@ -42,7 +42,7 @@ On-Prem networks and even other AWS account.
 ##### Setup IPSec VPN tunnel
 traffic goes over Internet though.
 
-## cloudfront 
+## Cloudfront 
 Increase of users cause increase of cost and latency in case of using S3, ALB
 Solution; ditching ALB and using cloud front; 
 S3 can serve directly to users through cloudfront 
