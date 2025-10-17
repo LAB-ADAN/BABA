@@ -5,7 +5,7 @@ User looks for example.com,
 **Route 53** resolves domain name to an IP address of LB located in public subnet
 The traffic enters VPC through Internet Gateway.
 
-### Securing resources - private subnet 
+#### Securing resources - private subnet 
 To isolate resources from direct Internet, better to place them in private subnet
 since Apps often require to send/receive outbound traffic, this is where NAT gateway
 comes in. NAT gateway translates private IPs of EC2 to its own public IP.
