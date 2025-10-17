@@ -1,8 +1,8 @@
-## AWS Networking - Big Picture
+# AWS Networking - Big Picture
 
-# user interaction with app
+## user interaction with app
 User looks for example.com, 
-Route 53 resolves domain name to an IP address of LB located in public subnet
+###Route 53 resolves domain name to an IP address of LB located in public subnet
 The traffic enters VPC through Internet Gateway
 
 
