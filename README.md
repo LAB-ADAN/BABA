@@ -12,17 +12,17 @@ comes in. NAT gateway translates private IPs of EC2 to its own public IP.
 
 ## Accessing AWS services
 
-#####  Access via NAT gateway; 
+#####  Access via NAT gateway
 instances in private subnet access S3 or Dynamo DB over Internet through NAT gateway
 which cause data transfer cost and public internet connectivity.
 
 #####  VPC endpoint for private access
 
-#####  endpoint gateway used for S3 and Dynamo DB, 
+#####  endpoint gateway used for S3 and Dynamo DB
 directs traffic over AWS private network to
 these services. Unlike NAT gateway, having no additional cost for data transfer.
 
-##### Interface gateway used for other AWS services, 
+##### Interface gateway used for other AWS services 
 it is a network interface with a private IP in your subnet powered by AWS private link.
 
 ## Connecting Multiple VPC
@@ -31,7 +31,7 @@ it is a network interface with a private IP in your subnet powered by AWS privat
 is direct one to one connection between two VPCs.
 
 
-##### Transit gateway; 
+##### Transit gateway
 simplifies connectivity which routes traffic between VPCs,
 On-Prem networks and even other AWS account.
 
@@ -39,7 +39,7 @@ On-Prem networks and even other AWS account.
 
 ##### VPN or AWS Direct Connect used to link on-prem to VPC
 
-##### Setup IPSec VPN tunnel;
+##### Setup IPSec VPN tunnel
 traffic goes over Internet though.
 
 ## cloudfront 
