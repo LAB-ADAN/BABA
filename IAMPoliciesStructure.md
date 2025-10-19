@@ -1,3 +1,1 @@
-<?xml version="1.0" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-
+<img width="997" height="608" alt="IAM Policy structure excalidraw" src="https://github.com/user-attachments/assets/c6f4263a-e742-4c87-9901-75a7a07f4b7c" />
